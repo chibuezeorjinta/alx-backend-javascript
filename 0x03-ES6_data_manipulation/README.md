@@ -1,0 +1,1 @@
+working with arrays and objectss to discover javascript's quirks
