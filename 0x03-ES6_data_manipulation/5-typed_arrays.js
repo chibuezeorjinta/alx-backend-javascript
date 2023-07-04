@@ -5,5 +5,5 @@ export default function createInt8TypedArray(length, position, value) {
     throw new Error('Position outside range');
   }
   int8Edit[position] = value;
-  return newArr;
+  return new DataView(newArr);
 }
