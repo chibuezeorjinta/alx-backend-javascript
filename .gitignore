@@ -1,0 +1,6 @@
+.vscode/
+0x03-ES6_data_manipulation/node_modules
+0x03-ES6_data_manipulation/.eslintrc.js
+0x03-ES6_data_manipulation/[0-9]*-main.js
+0x03-ES6_data_manipulation/babel.config.js
+0x03-ES6_data_manipulation/package*
