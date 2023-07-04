@@ -3,8 +3,8 @@ export default function createIteratorObject(report) {
   for (const value of Object.values(report.allEmployees)) {
     output = [
       ...output,
-      ...value
+      ...value,
     ];
-  };
+  }
   return output;
 }
