@@ -3,8 +3,8 @@ export default function cleanSet(inSet, startString) {
     return '';
   }
   const slicedStings = Array.from(inSet)
-    .filter((value) => value.startsWith(startString))
-    .map((value) => value.slice(startString.length));
+    .filter((value) => (value !== undefined ? value.startsWith(startString) : ''))
+    .map((value) => (value !== undefined ? value.slice(startString.length) : ''));
 
   return slicedStings.join('-');
 }
