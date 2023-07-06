@@ -1,0 +1,1 @@
+## My entrance to the domain of typescript
