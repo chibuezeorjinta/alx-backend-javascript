@@ -3,3 +3,4 @@ node_modules
 babel.config.js
 package-lock.json
 package.json
+[0-9]-main.js
