@@ -4,3 +4,9 @@
 0x03-ES6_data_manipulation/[0-9]*-main.js
 0x03-ES6_data_manipulation/babel.config.js
 0x03-ES6_data_manipulation/package*
+*/package*
+*/babel.config.js
+*/[0-9]-main.js
+*/.eslintrc.js
+node_modules/
+[0-9]-main_0.js
